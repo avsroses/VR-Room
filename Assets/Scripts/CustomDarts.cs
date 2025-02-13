@@ -15,6 +15,5 @@ public class CustomDarts : MonoBehaviour
         //create Vector3 to represent forawrd force
         Vector3 force = spawnTransform.forward * launchSpeed;
         dart.GetComponent<Rigidbody>().AddForce(force);
-        //dart.GetComponent<Rigidbody>().AddTorque(new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)));
     }
 }
